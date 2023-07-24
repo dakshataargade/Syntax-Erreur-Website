@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { Element } from "react-scroll";
 import Footer from "./Footer";
-
+import Arrow from '../../assets/images/arrow.svg'
 const Contactus = () => {
   useEffect(() => {
     document.getElementById("Software To Cloud");
@@ -39,17 +39,52 @@ const Contactus = () => {
   return (
     <Element name="MainContact ">
       {/* Contact Us Container */}
-      <div className="relative z-10 flex justify-center pt-20 pb-20 sm:z-auto md:z-10 sm:pt-0 font-Kanit ">
+      <div className="relative z-10 flex flex-col items-start justify-center pt-64 pb-20 sm:z-auto md:z-10 lg:pt-0 font-Kanit ">
         {" "}
         {/* Main container */}
-        <div className="rounded-2xl border-[1px] border-[#eee] flex flex-col sm:px-8 px-5 justify-start lg:h-[650px] md:h-[650px]  w-[400px] sm:w-full lg:w-[900px]  sm:p-16 pb-1  lg:pb-[39px] backdrop-blur-md bg-[rgba(43,43,43,0.26)] ">
+        <div className="flex flex-col items-start justify-start w-full gap-16 px-10 mx-auto sm:w-11/12 max-w-7xl sm:px-8">
           {" "}
-          {/* container */}
-          <div className=" font-Kanit sm:text-left text-center font-semibold text-[25px] sm:text-[35px] whitespace-nowrap pb-12 sm:pt-0 pt-10">
-            Hello, Syntax Erreur team !
+          {/* schedule a call */}
+          <div className="relative z-10 flex flex-col items-start justify-start gap-5 font-Kanit ">
+            <h1 className=" font-Kanit sm:text-left text-left font-normal text-2xl sm:text-5xl lg:text-6xl 2xl:text-[90px]  text-white">
+              Welcome to syntax Erreur
+            </h1>
+            <h2 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-3xl md:text-4xl lg:text-5xl">
+              Let's Connect
+            </h2>
+            <p className="text-lg font-normal text-left text-white font-Kanit sm:text-left sm:text-xl md:text-2xl lg:text-3xl">
+              Transforming rough ideas into actionable success. Discover the possibilities with us by scheudling a call
+            </p>
+            <a href="https://calendly.com/syntaxerreur05/15min" target="_blank" className="py-2.5 px-4  hover:scale-105 transition-all duration-300  flex items-center justify-center gap-2 bg-white rounded-[30px]">
+              <span className="text-[#0E1B2C] text-xl font-normal tracking-[0.4px]">Schedule a call</span>
+              <img src={Arrow} alt="" />
+            </a>
           </div>
+
+          {/* discord */}
+          <div className="relative z-10 flex flex-col items-start justify-start gap-5 font-Kanit ">
+            <h1 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-2xl">
+              Email Us  :  Syntaxerreur05@gmail.com
+            </h1>
+            <h4 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-2xl">
+              We work best on discord! (After all we are Gen z)
+            </h4>
+            <h4 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-2xl">
+              Connect with us on our server
+            </h4>
+            <a href="https://discord.gg/4BYKp3Vr" target="_blank" className="py-2.5 px-4 flex items-center justify-center gap-2 bg-white rounded-[30px]  hover:scale-105 transition-all duration-300 ">
+              <span className="text-[#0E1B2C] text-xl font-normal tracking-[0.4px]">Discord</span>
+              <img src={Arrow} alt="" />
+            </a>
+          </div>
+
+          <div className="relative z-10 flex flex-col items-start justify-start gap-5 font-Kanit ">
+            <h4 className="max-w-4xl text-lg font-normal text-left text-white font-Kanit sm:text-left lg:text-xl xl:text-2xl">
+              Remember, there are no rules here, just good vibes! So, unleash your brilliance and let's cook up something extraordinary that'll blow everyone's minds!            </h4>
+          </div>
+
           {/* All Inputs */}
-          <div className="flex flex-col gap-10">
+          {/* <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-4 px-5 sm:px-0 sm:flex-row sm:justify-start lg:justify-start lg:items-center sm:items-start font-Kanit ">
               <div className="flex flex-col gap-4 sm:items-center sm:flex-row">
                 <label className="text-xl sm:text-3xl whitespace-nowrap">My Name is </label>
@@ -165,13 +200,13 @@ const Contactus = () => {
                 placeholder="YOUR EMAIL"
               ></input>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex justify-center ">
+          {/* <div className="flex justify-center ">
             <button onClick={handleSubmit} className=" w-32 h-32 z-20 px-5 py-5 backdrop-blur-lg bg-[#16212E] bg-opacity-100 sm:top-8 top-16  relative  text-lg font-bold  text-white uppercase transition-all duration-700 border-2 border-white rounded-full hover:text-black hover:bg-white  font-Kanit">
               Submit
             </button>
-          </div>
+          </div> */}
           {/* <div>
             <p className=" px-10 sm:py-0 pb-[25px] mt-8 text-sm sm:text-lg tracking-widest rounded-md w-max font-Kanit">
               Based in Mumbai, Maharashtra
