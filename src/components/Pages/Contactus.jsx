@@ -53,7 +53,7 @@ const Contactus = () => {
               Let's Connect
             </h2>
             <p className="text-lg font-normal text-left text-white font-Kanit sm:text-left sm:text-xl md:text-2xl lg:text-3xl">
-              Transforming rough ideas into actionable success. Discover the possibilities with us by scheudling a call
+              Transforming rough ideas into actionable success. Discover the possibilities with us by scheduling a call
             </p>
             <a href="https://calendly.com/syntaxerreur05/15min" target="_blank" className="py-2.5 px-4  hover:scale-105 transition-all duration-300  flex items-center justify-center gap-2 bg-white rounded-[30px]">
               <span className="text-[#0E1B2C] text-xl font-normal tracking-[0.4px]">Schedule a call</span>
