@@ -64,7 +64,7 @@ const Contactus = () => {
           {/* discord */}
           <div className="relative z-10 flex flex-col items-start justify-start gap-5 font-Kanit ">
             <h1 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-2xl">
-              Email Us  :  Syntaxerreur05@gmail.com
+              Email Us  :  contact@syntaxerreur.com
             </h1>
             <h4 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-2xl">
               We work best on discord! (After all we are Gen z)
