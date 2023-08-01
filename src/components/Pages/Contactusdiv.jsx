@@ -115,7 +115,7 @@ onClick={()=>window.open("https://discord.com/invite/M3B5nueqXf","_blank")}
                       <button className="flex items-center justify-center gap-2 px-3 rounded-sm hover:scale-90 transition-all duration-150" >
                     
                         <Link
-                         onClick={()=>window.open("https://www.instagram.com/syntaxerreur05?igshid=MzRIODBiNWFIZA","_blank")}
+                         onClick={()=>window.open("https://www.instagram.com/syntaxerreur/?igshid=MzRIODBiNWFIZA","_blank")}
                           className="button-animation"
                           
                         >
