@@ -20,6 +20,10 @@ import POS1 from '../../assets/projectImages/POS1.svg'
 import POS2 from '../../assets/projectImages/POS2.svg'
 import POS3 from '../../assets/projectImages/POS3.svg'
 import POS4 from '../../assets/projectImages/POS4.svg'
+import Yolo1 from '../../assets/projectImages/Instagram post - 1.png'
+import Yolo2 from '../../assets/projectImages/Instagram post - 2.png'
+import Yolo3 from '../../assets/projectImages/Instagram post - 3.png'
+import Yolo4 from '../../assets/projectImages/Instagram post - 4.png'
 const Carousel = () => {
 
     const items = [
@@ -94,6 +98,24 @@ const Carousel = () => {
                 {
                     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl4MSNDS6m3kMsNnerP9jlQj0i9J9XmXz4eoKLDYc&s',
                     title: 'Rest API'
+                }
+            ]
+
+        },
+        {
+            id: 5,
+            title: 'Yolo',
+            description: 'We at SyntaxErreur created a social media plus dating app aimed at 10k to 20k users utilizing  Flutter for user interface and application logic for app integrating it with Firebase services to manage backend functionalities. Combining social networking and dating to forge meaningful connections, setting new standards for modern relationships.',
+            image: [`${Yolo1}`, `${Yolo2}`, `${Yolo3}`, `${Yolo4}`],
+            softwareUsed: [
+                {
+                    url: `https://cdn.iconscout.com/icon/free/png-256/free-flutter-2038877-1720090.png`,
+                    title: 'Flutter'
+                },
+                
+                {
+                    url: `https://firebase.google.com/static/downloads/brand-guidelines/PNG/logo-logomark.png`,
+                    title: 'Firebase'
                 }
             ]
 
