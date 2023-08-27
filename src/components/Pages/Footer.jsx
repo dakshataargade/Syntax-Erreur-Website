@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="flex items-center space-x-4">
           {/* Twitter Icon */}
           <a
-            href="YOUR_TWITTER_PROFILE_LINK"
+            href="https://twitter.com/erreur_syntax"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* LinkedIn Icon */}
           <a
-            href="YOUR_LINKEDIN_PROFILE_LINK"
+            href="https://www.linkedin.com/company/82978434/"
             target="_blank"
             rel="noopener noreferrer"
           >
