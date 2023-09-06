@@ -31,7 +31,7 @@ const Footer = () => {
 
         <div>
           <p className="text-lg font-light text-left font-Kanit ">
-            Software Development Company © 2023
+            SCOREDILE TECHNOLOGIES PRIVATE LIMITED © 2023
           </p>
         </div>
         <div className="flex items-center space-x-4">
