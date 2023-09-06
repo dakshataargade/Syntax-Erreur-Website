@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll";
 import Footer from "./Footer";
 import Arrow from '../../assets/images/arrow.svg'
+
 const Contactus = () => {
   useEffect(() => {
     document.getElementById("Software To Cloud");
@@ -37,7 +37,7 @@ const Contactus = () => {
     })
   }
   return (
-    <Element name="MainContact ">
+    <Element name="MainContact">
       {/* Contact Us Container */}
       <div className="relative z-10 flex flex-col items-start justify-center pt-64 pb-20 sm:z-auto md:z-10 lg:pt-0 font-Kanit ">
         {" "}

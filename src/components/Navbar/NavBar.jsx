@@ -148,11 +148,11 @@ const NavBar = forwardRef((props, ref, windowWidth) => {
           </Link>
           <Link
             activeClass="active"
-            to="Contact"
+            to="MainContact"
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}
+            duration={1000}
             className={`tracking-wider  cursor-pointer gradient-link px-4 py-2 border-2 hover:text-black hover:bg-white transition-all duration-700 border-white rounded-md w-36 whitespace-nowrap `}
             onClick={handleLinkClick}
           >
