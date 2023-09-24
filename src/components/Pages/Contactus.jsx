@@ -47,7 +47,7 @@ const Contactus = () => {
           {/* schedule a call */}
           <div className="relative z-10 flex flex-col items-start justify-start gap-5 font-Kanit ">
             <h1 className=" font-Kanit sm:text-left text-left font-normal text-2xl sm:text-5xl lg:text-6xl 2xl:text-[90px]  text-white">
-              Welcome to syntax Erreur
+              Welcome to Syntax Erreur
             </h1>
             <h2 className="text-xl font-normal text-left text-white font-Kanit sm:text-left sm:text-3xl md:text-4xl lg:text-5xl">
               Let's Connect
